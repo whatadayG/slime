@@ -1,0 +1,10 @@
+# Self-play optimization game configuration
+# Use with: --custom-config-path examples/self_play_optimization/config.yaml
+
+# Game parameters
+max_turns: 30
+max_retries_per_turn: 8
+error_penalty: 0.0  # Penalty per malformed response (subtracted from final reward)
+
+# These can also be set via command line, this file just provides defaults
+# for custom function parameters that aren't standard SLIME args
